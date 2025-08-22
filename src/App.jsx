@@ -5,7 +5,7 @@ PWA + SQLite (WASM) — Expense Tracker (TH)
 2) Export JSON รวม settings/categories/expenses/recurrings พร้อม meta เวอร์ชัน
 3) Import JSON (overwrite ทั้งหมดแบบปลอดภัย + ตรวจรูปแบบข้อมูล)
 4) Export SQLite (.sqlite) เมื่อใช้โหมด WASM; ถ้าไม่พร้อมจะ fallback เป็น JSON และแจ้งเตือน
-5) เพิ่ม Unit Tests เพิ่มเติมสำหรับ payload export (ไม่แก้ของเดิม)
+5) เพิ่ม Unit Tests เพิ่มเติมสำหรับ payload export (ไม่แก้ของเดิมx)
 */
 
 import React, { useEffect, useMemo, useState } from "react";
